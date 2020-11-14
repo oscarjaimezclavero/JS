@@ -67,7 +67,7 @@ console.log(guiones(palabra_elegida));
 
 // VENTANA HIJO PALABRA
 let estadopalabra;
-let palabrilla = "pepitogrillo";
+let palabrilla = "pepitogrill";
 let arrpalabra = palabrilla.match(/.{1}/g);
 
 
