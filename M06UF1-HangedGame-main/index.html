@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Oscar y Antonio</title>
+</head>
+<body>
+    
+    <div id="ContenedorPagprincipal">    
+        <div id="menuPrincipal">
+            <button class="BotonPersonalizado" onclick="Iniciar()"> Iniciar </button>
+            <button class="BotonPersonalizado" onclick="Reiniciar()"> Reiniciar </button>
+            <button onclick="Prueba()" >Errores: <span id="clicks">0</span></button>
+        </div>        
+        
+        <div id="contenedorTextoPagprincipal">
+            <h2>Juego del Ahorcado</h2>  
+             <div>  
+                    <form id="form">
+                    <input id="dameletra" type="text" placeholder="Dame una letra Porfavor" maxlength="1"> 
+                    <input name="enviar" type="submit" value="enviar">
+                    </form>
+             </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+</html>
